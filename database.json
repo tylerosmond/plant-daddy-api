@@ -1,0 +1,190 @@
+{
+  "users": [
+    {
+        "id": 1,
+        "fullName": "Katherine Osmond",
+        "email": "mommy@plantdaddy.com",
+        "isStaff": true
+    },
+    {
+        "id": 2,
+        "fullName": "Tyler Osmond",
+        "email": "daddy@plantdaddy.com",
+        "isStaff": true
+    },{
+        "id": 3,
+        "fullName": "Ace Osmond",
+        "email": "baby@plantdaddy.com",
+        "isStaff": true
+    },
+    {
+        "id": 4,
+        "fullName": "Bryan Cranston",
+        "email": "bryan@doshombres.com",
+        "isStaff": false
+    },
+    {
+        "id": 5,
+        "fullName": "Ziggy Wobblebottom",
+        "email": "gettinziggywithit@rocketmail.com",
+        "isStaff": false
+    },
+    {
+        "id": 6,
+        "fullName": "Balthazar Flapjackson",
+        "email": "bflapjack@woogirlnashville.com",
+        "isStaff": false
+    }
+  ],
+  "customers": [
+    {
+        "id": 1,
+        "address": "308 Negra Arroyo Lane, Albuquerque, NM 87111",
+        "phoneNumber": "505-503-4455",
+        "userId": 4
+    },
+    {
+        "id": 2,
+        "address": "124 Farfrompoopen Road, Story, AR 71970",
+        "phoneNumber": "248-434-5508",
+        "userId": 5
+    },
+    {
+        "id": 3,
+        "address": "221 Broadway, Nashville, TN 37201",
+        "phoneNumber": "615-248-2706",
+        "userId": 6
+    }
+  ],
+  "employees": [
+    {
+        "id": 1,
+        "availability": true,
+        "userId": 1
+    },
+    {
+        "id": 2,
+        "availability": true,
+        "userId": 2
+    },
+    {
+        "id": 3,
+        "availability": false,
+        "userId": 3
+    }
+  ],
+  "packages": [
+    {
+        "id": 1,
+        "name": "package 1",
+        "description": "description 1",
+        "availability": true
+    },
+    {
+        "id": 2,
+        "name": "package 2",
+        "description": "description 2",
+        "availability": true
+    },
+    {
+        "id": 3,
+        "name": "package 3",
+        "description": "description 3",
+        "availability": true
+    },
+    {
+        "id": 4,
+        "name": "package 4",
+        "description": "description 4",
+        "availability": true
+    },
+    {
+        "id": 5,
+        "name": "package 5",
+        "description": "description 5",
+        "availability": true
+    }
+  ],
+  "eventTickets": [
+    {
+        "id": 1,
+        "userId": 4,
+        "description": "Dos Hombres Mezcal tasting",
+        "dateOfEvent": "2024-08-05T18:30:00.000Z",
+        "packageId": 3,
+        "active": true
+    },
+    {
+        "id": 2,
+        "userId": 4,
+        "description": "Malcolm in the Middle Reunion/Meet & Greet",
+        "dateOfEvent": "2024-09-018T17:00:00.000Z",
+        "packageId": 2,
+        "active": true
+    },
+    {
+        "id": 3,
+        "userId": 4,
+        "description": "Private Mezcal tasting at Los Pollos Hermanos",
+        "dateOfEvent": "2025-02-07T09:30:00.000Z",
+        "packageId": 3,
+        "active": true
+    },
+    {
+        "id": 4,
+        "userId": 5,
+        "description": "One big combined birthday, baptism, and wedding anniversary",
+        "dateOfEvent": "2024-08-21T12:00:00.000Z",
+        "packageId": 5,
+        "active": true
+    },
+    {
+        "id": 5,
+        "userId": 6,
+        "description": "Woo Girl Convention at Kid Rock's Big Ass Honky Tonk",
+        "dateOfEvent": "2025-04-06T08:30:00.000Z",
+        "packageId": 1,
+        "active": true
+    },
+    {
+        "id": 6,
+        "userId": 5,
+        "description": "Private dinner at Chili's on West End",
+        "dateOfEvent": "2024-06-21T17:30:00.000Z",
+        "packageId": 4,
+        "active": false
+    }
+  ],
+  "employeeTickets": [
+    {
+        "id": 1,
+        "employeeId": 1,
+        "eventTicketId": 1
+    },
+    {
+        "id": 2,
+        "employeeId": 1,
+        "eventTicketId": 2
+    },
+    {
+        "id": 3,
+        "employeeId": 1,
+        "eventTicketId": 3
+    },
+    {
+        "id": 4,
+        "employeeId": 2,
+        "eventTicketId": 4
+    },
+    {
+        "id": 5,
+        "employeeId": 2,
+        "eventTicketId": 5
+    },
+    {
+        "id": 6,
+        "employeeId": 3,
+        "eventTicketId": 6
+    }
+  ]
+}
