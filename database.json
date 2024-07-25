@@ -77,30 +77,36 @@
     {
         "id": 1,
         "name": "package 1",
+        "image": "url",
         "description": "description 1",
         "availability": true
+        
     },
     {
         "id": 2,
         "name": "package 2",
+        "image": "url",
         "description": "description 2",
         "availability": true
     },
     {
         "id": 3,
         "name": "package 3",
+        "image": "url",
         "description": "description 3",
         "availability": true
     },
     {
         "id": 4,
         "name": "package 4",
+        "image": "url",
         "description": "description 4",
         "availability": true
     },
     {
         "id": 5,
         "name": "package 5",
+        "image": "url",
         "description": "description 5",
         "availability": true
     }
@@ -110,7 +116,7 @@
         "id": 1,
         "userId": 4,
         "description": "Dos Hombres Mezcal tasting",
-        "dateOfEvent": "2024-08-05T18:30:00.000Z",
+        "dateOfEvent": "08/05/2024",
         "packageId": 3,
         "active": true
     },
@@ -118,7 +124,7 @@
         "id": 2,
         "userId": 4,
         "description": "Malcolm in the Middle Reunion/Meet & Greet",
-        "dateOfEvent": "2024-09-018T17:00:00.000Z",
+        "dateOfEvent": "09/18/2024",
         "packageId": 2,
         "active": true
     },
@@ -126,7 +132,7 @@
         "id": 3,
         "userId": 4,
         "description": "Private Mezcal tasting at Los Pollos Hermanos",
-        "dateOfEvent": "2025-02-07T09:30:00.000Z",
+        "dateOfEvent": "02/07/2025",
         "packageId": 3,
         "active": true
     },
@@ -134,7 +140,7 @@
         "id": 4,
         "userId": 5,
         "description": "One big combined birthday, baptism, and wedding anniversary",
-        "dateOfEvent": "2024-08-21T12:00:00.000Z",
+        "dateOfEvent": "08/21/2024",
         "packageId": 5,
         "active": true
     },
@@ -142,7 +148,7 @@
         "id": 5,
         "userId": 6,
         "description": "Woo Girl Convention at Kid Rock's Big Ass Honky Tonk",
-        "dateOfEvent": "2025-04-06T08:30:00.000Z",
+        "dateOfEvent": "04/06/2025",
         "packageId": 1,
         "active": true
     },
@@ -150,7 +156,7 @@
         "id": 6,
         "userId": 5,
         "description": "Private dinner at Chili's on West End",
-        "dateOfEvent": "2024-06-21T17:30:00.000Z",
+        "dateOfEvent": "06/21/2024",
         "packageId": 4,
         "active": false
     }
