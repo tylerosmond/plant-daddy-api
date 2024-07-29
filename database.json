@@ -3,18 +3,18 @@
     {
         "id": 1,
         "fullName": "Kate Osmond",
-        "email": "mommy@PlantDaddy.com",
+        "email": "mommy@plantdaddy.com",
         "isStaff": true
     },
     {
         "id": 2,
         "fullName": "Tyler Osmond",
-        "email": "daddy@PlantDaddy.com",
+        "email": "daddy@plantdaddy.com",
         "isStaff": true
     },{
         "id": 3,
         "fullName": "Ace Osmond",
-        "email": "baby@PlantDaddy.com",
+        "email": "baby@plantdaddy.com",
         "isStaff": true
     },
     {
@@ -38,7 +38,7 @@
     {
         "id": 7,
         "fullName": "Ham",
-        "email": "dog@PlantDaddy.com",
+        "email": "dog@plantdaddy.com",
         "isStaff": true
         
     }
