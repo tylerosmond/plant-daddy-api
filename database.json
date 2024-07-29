@@ -2,19 +2,19 @@
   "users": [
     {
         "id": 1,
-        "fullName": "Katherine Osmond",
-        "email": "mommy@plantdaddy.com",
+        "fullName": "Kate Osmond",
+        "email": "mommy@PlantDaddy.com",
         "isStaff": true
     },
     {
         "id": 2,
         "fullName": "Tyler Osmond",
-        "email": "daddy@plantdaddy.com",
+        "email": "daddy@PlantDaddy.com",
         "isStaff": true
     },{
         "id": 3,
         "fullName": "Ace Osmond",
-        "email": "baby@plantdaddy.com",
+        "email": "baby@PlantDaddy.com",
         "isStaff": true
     },
     {
@@ -34,6 +34,13 @@
         "fullName": "Balthazar Flapjackson",
         "email": "bflapjack@woogirlnashville.com",
         "isStaff": false
+    },
+    {
+        "id": 7,
+        "fullName": "Ham",
+        "email": "dog@PlantDaddy.com",
+        "isStaff": true
+        
     }
   ],
   "customers": [
@@ -71,43 +78,83 @@
         "id": 3,
         "availability": false,
         "userId": 3
+    },
+    {
+        "id": 4,
+        "availability": false,
+        "userId": 7
     }
   ],
   "packages": [
     {
         "id": 1,
-        "name": "package 1",
-        "image": "url",
-        "description": "description 1",
+        "name": "Tropical Oasis",
+        "image": "https://plus.unsplash.com/premium_photo-1687121975650-f0cfeeae43d3?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Immerse your event in a lush, tropical paradise with this vibrant package. Featuring a mix of large palms, ferns, and colorful bromeliads, the Tropical Oasis brings a warm and exotic feel to any venue.",
         "availability": true
         
     },
     {
         "id": 2,
-        "name": "package 2",
-        "image": "url",
-        "description": "description 2",
+        "name": "Modern Minimalist",
+        "image": "https://plus.unsplash.com/premium_photo-1683134116064-73c9fe23adff?q=80&w=2531&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Sleek and stylish, the Modern Minimalist package offers a collection of elegant succulents and cacti in contemporary containers. Perfect for adding a touch of green without overwhelming your space, this package is ideal for modern, chic events.",
         "availability": true
     },
     {
         "id": 3,
-        "name": "package 3",
-        "image": "url",
-        "description": "description 3",
+        "name": "Rustic Retreat",
+        "image": "https://plus.unsplash.com/premium_photo-1668097636079-7793943d5433?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Create a cozy, rustic atmosphere with the Rustic Retreat package. This collection includes hearty, earth-toned plants like philodendrons, snake plants, and potted herbs, perfect for outdoor or nature-inspired events.",
         "availability": true
     },
     {
         "id": 4,
-        "name": "package 4",
-        "image": "url",
-        "description": "description 4",
+        "name": "Zen Garden",
+        "image": "https://plus.unsplash.com/premium_photo-1661954483883-edd65eac3577?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Promote peace and tranquility at your event with the Zen Garden package. Featuring a selection of bonsai trees, bamboo, and serene moss gardens, this package is designed to create a calm, meditative environment.",
         "availability": true
     },
     {
         "id": 5,
-        "name": "package 5",
-        "image": "url",
-        "description": "description 5",
+        "name": "Boho Bliss",
+        "image": "https://images.unsplash.com/photo-1718412538965-64192a6e6f82?q=80&w=2675&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Add a touch of bohemian flair with the Boho Bliss package. This eclectic mix includes macramé-hung plants, trailing ivies, and vibrant florals, perfect for free-spirited and artistic gatherings.",
+        "availability": true
+    },
+    {
+        "id": 6,
+        "name": "Elegant Evergreen",
+        "image": "https://images.unsplash.com/photo-1533675987772-564f79b7c8d1?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "For a timeless and classic look, the Elegant Evergreen package offers a variety of lush, green plants such as ficus trees, peace lilies, and ferns. This package adds a sophisticated touch to any event.",
+        "availability": true
+    },
+    {
+        "id": 7,
+        "name": "Desert Dreams",
+        "image": "https://images.unsplash.com/photo-1527832808532-c838db1b5014?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Bring the beauty of the desert to your event with the Desert Dreams package. This collection includes various cacti, aloe vera, and desert roses, providing a unique and striking aesthetic.",
+        "availability": true
+    },
+    {
+        "id": 8,
+        "name": "Coastal Charm",
+        "image": "https://images.unsplash.com/photo-1525293907802-5a8168b698df?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Evoke the breezy, relaxed vibe of the seaside with the Coastal Charm package. Featuring a mix of grasses, beachy succulents, and palms, this package is perfect for beach-themed events or summer parties.",
+        "availability": true
+    },
+    {
+        "id": 9,
+        "name": "Enchanted Forest",
+        "image": "https://plus.unsplash.com/premium_photo-1673697240073-04416dc18ab3?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Step into a magical world with the Enchanted Forest package. This whimsical collection includes ferns, moss-covered stones, and miniature trees, creating a fairy-tale setting for your event.",
+        "availability": true
+    },
+    {
+        "id": 10,
+        "name": "Urban Jungle",
+        "image": "https://plus.unsplash.com/premium_photo-1665408511276-24c85c39d671?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Transform your event into a thriving urban jungle with this dynamic package. Including a variety of large, leafy plants like monstera, fiddle-leaf figs, and rubber plants, the Urban Jungle is perfect for bringing a vibrant, energetic feel to any city event.",
         "availability": true
     }
   ],
@@ -115,7 +162,7 @@
     {
         "id": 1,
         "userId": 4,
-        "description": "Dos Hombres Mezcal tasting",
+        "description": "Dos Hombres Mezcal tasting.",
         "dateOfEvent": "08/05/2024",
         "packageId": 3,
         "active": true
@@ -123,39 +170,39 @@
     {
         "id": 2,
         "userId": 4,
-        "description": "Malcolm in the Middle Reunion/Meet & Greet",
+        "description": "Malcolm in the Middle Reunion/Meet & Greet.",
         "dateOfEvent": "09/18/2024",
-        "packageId": 2,
+        "packageId": 6,
         "active": true
     },
     {
         "id": 3,
         "userId": 4,
-        "description": "Private Mezcal tasting at Los Pollos Hermanos",
+        "description": "Private Mezcal tasting at Los Pollos Hermanos.",
         "dateOfEvent": "02/07/2025",
-        "packageId": 3,
+        "packageId": 8,
         "active": true
     },
     {
         "id": 4,
         "userId": 5,
-        "description": "One big combined birthday, baptism, and wedding anniversary",
+        "description": "A first year wedding anniversary for Nashville's hottest couple.",
         "dateOfEvent": "08/21/2024",
-        "packageId": 5,
+        "packageId": 10,
         "active": true
     },
     {
         "id": 5,
         "userId": 6,
-        "description": "Woo Girl Convention at Kid Rock's Big Ass Honky Tonk",
+        "description": "Woo Girl Convention at Kid Rock's Big Ass Honky Tonk.",
         "dateOfEvent": "04/06/2025",
-        "packageId": 1,
+        "packageId": 5,
         "active": true
     },
     {
         "id": 6,
         "userId": 5,
-        "description": "Private dinner at Chili's on West End",
+        "description": "Private dinner at Chili's on West End.",
         "dateOfEvent": "06/21/2024",
         "packageId": 4,
         "active": false
