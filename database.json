@@ -206,6 +206,14 @@
         "dateOfEvent": "06/21/2024",
         "packageId": 4,
         "active": false
+    },
+    {
+        "id": 7,
+        "userId": 4,
+        "description": "Cinco De Mayo celebration at Cinco De Mayo",
+        "dateOfEvent": "05/05/2024",
+        "packageId": 7,
+        "active": false
     }
   ],
   "employeeTickets": [
@@ -238,6 +246,11 @@
         "id": 6,
         "employeeId": 3,
         "eventTicketId": 6
+    },
+    {
+        "id": 7,
+        "employeeId": 4,
+        "eventTicketId": 7
     }
   ]
 }
