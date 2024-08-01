@@ -21,8 +21,7 @@
     {
       "id": 4,
       "fullName": "Bryan Cranston",
-      "email": "bryan@doshombres.com",
-      "isStaff": false
+      "email": "bryan@doshombres.com"
     },
     {
       "id": 5,
@@ -161,10 +160,11 @@
     {
       "id": 1,
       "userId": 4,
-      "description": "Dos Hombres Mezcal tasting.",
+      "description": "Dos Hombres Mezcal tasting",
       "dateOfEvent": "08/05/2024",
       "packageId": 3,
-      "active": true
+      "active": true,
+      "plantPackageId": 1
     },
     {
       "id": 2,
@@ -193,7 +193,7 @@
     {
       "id": 5,
       "userId": 6,
-      "description": "Woo Girl Convention at Kid Rock's Big Ass Honky Tonk.",
+      "description": "Woo Girl Convention in downtown Nashville at Kid Rock's Big Ass Honky Tonk.",
       "dateOfEvent": "04/06/2025",
       "packageId": 5,
       "active": true
@@ -213,6 +213,46 @@
       "dateOfEvent": "05/05/2024",
       "packageId": 7,
       "active": false
+    },
+    {
+      "userId": 6,
+      "description": "An elegant evening event to raise funds for local charities, complete with live music, gourmet dining, and a silent auction.",
+      "dateOfEvent": "09/10/2025",
+      "packageId": 9,
+      "active": true,
+      "id": 8
+    },
+    {
+      "userId": 6,
+      "description": "A glamorous red-carpet premiere for an upcoming blockbuster, with stars, media, and fans in attendance.",
+      "dateOfEvent": "10/20/2024",
+      "packageId": 10,
+      "active": true,
+      "id": 9
+    },
+    {
+      "userId": 5,
+      "description": "A festive holiday party for a large corporation, complete with live entertainment, themed decorations, and a lavish buffet.",
+      "dateOfEvent": "12/18/2024",
+      "packageId": 9,
+      "active": true,
+      "id": 10
+    },
+    {
+      "userId": 5,
+      "description": "An afternoon garden party with live jazz, finger foods, and a serene atmosphere, perfect for mingling and enjoying the outdoors.",
+      "dateOfEvent": "07/30/2025",
+      "packageId": 5,
+      "active": true,
+      "id": 11
+    },
+    {
+      "userId": 5,
+      "description": "A beautiful outdoor wedding by the lake, adorned with fresh flowers and lush greenery to create a romantic atmosphere.",
+      "dateOfEvent": "08/21/2023",
+      "packageId": 8,
+      "active": false,
+      "id": 12
     }
   ],
   "employeeTickets": [
