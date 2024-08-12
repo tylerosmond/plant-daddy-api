@@ -20,14 +20,13 @@
     },
     {
       "id": 4,
-      "fullName": "Bryan Frickin Cranston",
+      "fullName": "Bryan Cranston",
       "email": "bryan@doshombres.com"
     },
     {
       "id": 5,
       "fullName": "Ziggy Wobblebottom",
-      "email": "gettinziggywithit@rocketmail.com",
-      "isStaff": false
+      "email": "gettinziggywithit@rocketmail.com"
     },
     {
       "id": 6,
@@ -290,6 +289,11 @@
       "id": 7,
       "employeeId": 4,
       "eventTicketId": 7
+    },
+    {
+      "id": 8,
+      "employeeId": 4,
+      "eventTicketId": 12
     }
   ]
 }
